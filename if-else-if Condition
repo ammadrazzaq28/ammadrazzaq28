@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+int value ;
+cout << "Enter The Value : " << endl;
+cin >> value;
+
+if( value < 0 ) // Check condition value less then 0 ? then print negative value 
+{
+cout << " it is a negative value " <<endl;
+}
+else if ( value == 0 ) // else if condition will check after if condition 
+{
+cout << " Value is zero " <<endl; 
+}
+else  // if value is positive 
+{
+cout << " Positive value " <<endl;
+}
+
+
+return 0; 
+}
